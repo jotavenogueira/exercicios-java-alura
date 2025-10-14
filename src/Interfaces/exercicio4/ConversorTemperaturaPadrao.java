@@ -38,7 +38,7 @@ public class ConversorTemperaturaPadrao implements ConversorTemperatura{
                case 2:
                    System.out.println("Digite a temperatura em graus fahrenheit: ");
                    temperatura = ler.nextDouble();
-                   System.out.println( "A temperatura em fahreinheit é: " + conversor.celsiusParaFahrenheit(temperatura));
+                   System.out.println( "A temperatura em fahreinheit é:  " + conversor.celsiusParaFahrenheit(temperatura));
                    break;
                case 99:
                    break;
